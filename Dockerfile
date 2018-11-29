@@ -22,6 +22,7 @@ RUN add-apt-repository ppa:bitcoin/bitcoin && \
     apt-get --no-install-recommends --yes install \
           libdb4.8-dev \
           libdb4.8++-dev \
+          libzmq3-dev \
           libminiupnpc-dev && \
           rm -rf /var/lib/apt/lists/* && apt-get clean
 
